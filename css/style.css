@@ -271,6 +271,15 @@ header{
     text-align: center;
     margin-bottom: 20px;
 }
+.title-box h3::after{
+    content: '';
+    height: 5px;
+    width: 50px;
+    background: #54a59a;
+    position: absolute;
+    left: 48%;
+    top: 110px;
+}
 .title-box p{
     font-size: 15px;
     text-align: center;
