@@ -156,7 +156,7 @@ header{
         padding-bottom: 50px;
     }
     .message-btn{
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
     .scroll-btn #scrollUp{
         position: fixed;
@@ -333,7 +333,7 @@ header{
     line-height: 30px;
 }
 .contact-info{
-    margin-top: 20px;
+    margin: 25px 0;
 }
 .contact-info p{
     font-size: 16px;
@@ -355,6 +355,7 @@ header{
     font-size: 30px;
     margin: 0 10px;
     transition: all .3s;
+    line-height: 36px;
 }
 .sns-box a:hover{
     background-color: #26ceb7;
@@ -375,7 +376,7 @@ footer p{
 }
 
 /* scroll btn */
-.scroll-btn{
+a.scroll-btn{
     position: fixed;
     display: none;
     font-size: 25px;

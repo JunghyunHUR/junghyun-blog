@@ -1,5 +1,5 @@
 $(function(){
-    $('a').click(function(e){
+    $('.hamber a').click(function(e){
         e.preventDefault();
     })
     //hamber btn
